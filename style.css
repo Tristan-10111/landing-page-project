@@ -1,0 +1,140 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/black\ brick\ background\ \,\ landing\ page.jpg);
+  background-size: cover;
+  font-family: "MuseoModerno", cursive;
+}
+.background-tint {
+  background-color: rgba(0, 0, 0, 0.5); /* Tint color */
+  background-blend-mode: multiply;
+}
+
+/* .nav-links {
+  margin: 20px 0 0 25px;
+} */
+
+/* .container {
+  /* margin: 20px 0 0 25px; */
+
+.logo {
+  width: 160px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+nav {
+  float: right;
+  /* margin: 50px 25px 0 0; */
+  background: transparent;
+  width: 100%;
+}
+
+nav .logo {
+  margin: 10px 0 0 20px;
+  box-shadow: 5px 7px 9px rgb(236, 13, 13);
+}
+nav ul {
+  float: right;
+  margin: 50px 25px 0 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 9px 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-shadow: 5px 5px 9px white;
+}
+
+nav a:hover {
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 9px;
+  padding: 8px 10px;
+  box-shadow: 5px 5px 9px red;
+}
+nav a.active {
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 9px;
+  padding: 8px 10px;
+  box-shadow: 5px 5px 9px red;
+}
+
+.fa-solid.fa-house {
+  padding-right: 10px;
+}
+.fa-solid.fa-circle-info {
+  padding-right: 10px;
+}
+.hero {
+  width: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 65px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+  text-shadow: 5px 5px 9px orange;
+  text-decoration: underline white;
+}
+
+.hero h2 {
+  color: orange;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  text-shadow: 5px 5px 9px rgb(226, 70, 23);
+  text-decoration: underline white;
+}
+.hero p {
+  color: rgb(226, 23, 23);
+  margin-bottom: 7px;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 5px 5px 9px rgb(226, 23, 23);
+}
+
+.hero button {
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 50px;
+  box-shadow: 8px 9px 9px orange;
+  padding: 10px 10px;
+  color: chartreuse;
+  font-family: "MuseoModerno", cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 200px;
+  height: 10vh;
+  margin-top: 10px;
+  text-shadow: 5px 5px 8px;
+  text-shadow: 5px 5px 9px pink;
+}
+
+.hero button:hover {
+  background: white;
+  color: chartreuse;
+  cursor: pointer;
+  box-shadow: 5px 5px 9px orange;
+}
