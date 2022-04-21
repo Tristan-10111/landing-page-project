@@ -6,10 +6,7 @@
 
 body {
   font-family: "MuseoModerno", cursive;
-}
-.background-tint {
-  background-color: rgba(0, 0, 0, 0.5); /* Tint color */
-  background-blend-mode: multiply;
+  background-image: url(/images/black\ brick\ background\ \,\ landing\ page.jpg);
 }
 
 /* .nav-links {
@@ -141,18 +138,16 @@ section {
   height: 100vh;
   width: 100%;
 }
-section#home {
+/* section#home {
   background-image: url(/images/black\ brick\ background\ \,\ landing\ page.jpg);
   background-size: cover;
 }
 section#about {
   background-image: url(/images/first\ backgrouhnd.jpg);
   background-size: cover;
-}
-section#about-continued {
-  background-image: url(/images/3rd\ background\ image.jpg);
-  background-size: cover;
-}
+  height: 200vh;
+} */
+
 /* about section */
 h1 {
   width: 95%;
@@ -188,6 +183,11 @@ h2 {
 .col-1 {
   position: relative;
   bottom: 50px;
+}
+
+.col-1-2 {
+  position: relative;
+  left: 20px;
 }
 .car {
   border-radius: 50px;
